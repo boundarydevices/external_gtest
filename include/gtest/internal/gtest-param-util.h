@@ -37,6 +37,8 @@
 #include <iterator>
 #include <utility>
 #include <vector>
+#include <stddef.h>
+#include <cstddef>
 
 #include <gtest/internal/gtest-port.h>
 
