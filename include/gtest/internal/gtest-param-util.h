@@ -37,6 +37,8 @@
 #include <iterator>
 #include <utility>
 #include <vector>
+#include <stddef.h>
+#include <cstddef>
 
 // scripts/fuse_gtest.py depends on gtest's own header being #included
 // *unconditionally*.  Therefore these #includes cannot be moved

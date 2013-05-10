@@ -49,7 +49,7 @@ LOCAL_SRC_FILES := gtest-all.cc
 
 LOCAL_C_INCLUDES := $(libgtest_host_includes)
 
-LOCAL_CFLAGS += -O0
+LOCAL_CFLAGS += -O0 -Wno-missing-field-initializers
 
 LOCAL_MODULE := libgtest_host
 
